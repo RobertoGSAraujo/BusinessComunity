@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PropostaActivity">
+
+    <ImageView
+        android:id="@+id/fotoProposta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:src="@mipmap/ic_launcher"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/tituloProposta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="TextView"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/telefoneProposta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="210dp"/>
+
+    <TextView
+        android:id="@+id/descricaoProposta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+
+        android:textSize="25dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="210dp"/>
+</RelativeLayout>
